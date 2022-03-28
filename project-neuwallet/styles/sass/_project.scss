@@ -1,0 +1,161 @@
+
+body{
+    height: 45rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4e5277;
+}
+
+#sectionId{
+    box-sizing: border-box;
+    padding: 2rem;
+    text-align: center;
+    background-color: #252849;
+    border-radius: 1.8rem;
+    img{
+        width: 15rem;
+    }
+    h2{
+        font-size: 2.6rem;
+        font-weight: 600;
+        color: white;
+    }
+    p{
+        font-size: 1.6rem;
+        font-weight: 600;
+        color: white;
+    }
+    button{
+        width: 19rem;
+        height: 3rem;
+        border-radius: 0.8rem;
+        border: none;
+        box-shadow: 3px 3px 7px slategrey;
+        color: #2b939b;
+        background-color: white;
+        font-size: 1.5rem;
+        text-decoration: none;
+        font-weight: 600;
+        cursor: pointer;
+    }
+    
+}
+
+#signin{
+    display: flex;
+    flex-direction: column; 
+    border-radius: 1.1rem;
+    background-color: #252849;
+    padding: 3rem;
+    border: none;
+    box-shadow: rgb(50 50 93 / 25%) 0px 6px 12px -2px, rgb(0 0 0 / 30%) 0px 3px 7px -3px;
+    align-items: center;
+    form{
+        label{
+            font-size: 1.6rem;
+            font-weight: 600;
+            color: white;
+        }
+        input{
+            padding: 0.6rem;
+            border: none;
+            border-radius: 0.6rem;
+            margin-bottom: 0.4rem;
+            width: 40rem;
+        }
+        input:focus {
+            outline:none;
+        }
+        input[type="text"]::-webkit-input-placeholder {
+            color: rgb(49, 148, 173);
+        }
+        .pass{
+            padding: 0.6rem;
+            border: none;
+            border-radius: 0.6rem;
+            margin-bottom: 0.4rem;
+            width: 38.3rem;
+        }
+    }
+    button{
+        margin-top: 1.6rem;
+        width: 26rem;
+        padding: 0.6rem;
+        border-radius: 0.88rem;
+        border: none;
+        box-shadow: rgb(0 0 0 / 25%) 0px 25px 50px -12px;
+        font-size: 1.1rem;
+        font-weight: 600;
+        color: #2b939b;
+        background-color: white;
+        cursor: pointer;
+    }
+    button:hover{
+        background-color: cadetblue;
+        color: white;
+    }
+}
+
+#sectiontransaction{
+    form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 1.4rem;
+        padding: 2rem;
+        background-color: #252849;
+        h2{
+            font-size: 2.3rem;
+            font-weight: 600;
+            color: white;
+            padding: 0.5rem;
+            border-radius: 0.9rem;
+            background-color: #3b8484;
+        }
+        .inputvalu{
+            label{
+                font-size: 1.3rem;
+                font-weight: 600;
+                color: white;
+            }
+            #Address{
+                padding: 0.5rem;
+                width: 35rem;
+                border-radius: 0.9rem;
+                border: none;
+                margin: 0.5rem 0rem 0.5rem 2.45rem;
+            }
+            #Amount-sent{
+                padding: 0.5rem;
+                width: 35rem;
+                border-radius: 0.9rem;
+                border: none;
+                margin: 0.5rem 0rem;
+            }
+            #passwordtrans{
+                padding: 0.5rem;
+                width: 35rem;
+                border-radius: 0.9rem;
+                border: none;
+                margin: 0.5rem 0rem 0.5rem 1.85rem;
+            }
+            input:focus {
+                outline:none;
+            }
+            input[type="text"]::-webkit-input-placeholder {
+                color: rgb(49, 148, 173);
+            }
+        }
+        button{
+            padding: 0.8rem;
+            width: 20rem;
+            border-radius: 1.2rem;
+            border: none;
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: #2e9491;
+            cursor: pointer;
+        }
+    }
+}
